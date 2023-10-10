@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Consultancy Website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Consultancy</h1>
+
+        <!-- Add buttons here -->
+        <button onclick="window.location.href='/contact'">Contact Us</button>
+        <button onclick="window.location.href='/about'">About Us</button>
+    </header>
+    <nav>
+        <!-- Navigation menu goes here -->
+    </nav>
+    <main>
+        <section>
+            <!-- Content about software engineering consultancy -->
+        </section>
+        <section>
+            <!-- Content about math tutoring -->
+        </section>
+        <section>
+            <!-- Content about software development tutoring -->
+        </section>
+        <section>
+            <!-- Content about creative technology tutoring -->
+        <button id="myButton">Click Me!</button>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+

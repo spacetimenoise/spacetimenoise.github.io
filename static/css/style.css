@@ -1,0 +1,56 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header, navigation, or any other elements */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the navigation links */
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style the main content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* New styles for the About page */
+.about-content {
+    width: 100%;
+}
+
+.text {
+    width: 60%;
+    float: left;
+}
+
+.image {
+    width: 40%;
+    float: right;
+}
+
+/* Clear floats */
+.about-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Add any additional styles as needed */
