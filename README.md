@@ -1,4 +1,4 @@
-Coding a dynamic website with Python backend and usual CSS/HTML front end is simple.
+Hello, my site is under re-construction. The owner of SpaceTimeNoise is
 
-I design my website backend using Python flask
+\url{https://leannejdong.github.io/}
 
